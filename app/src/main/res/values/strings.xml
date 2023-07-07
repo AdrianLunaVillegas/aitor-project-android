@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Aitor Luna Project</string>
+    <string name="welcome">You are a student</string>
 </resources>
