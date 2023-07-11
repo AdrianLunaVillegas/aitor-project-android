@@ -13,22 +13,34 @@
         android:theme="@style/Theme.AitorLunaProject"
         tools:targetApi="31" >
         <activity
-            android:name=".MainActivity2"
-            android:exported="false" >
-        </activity>
+            android:name=".ReturnActivity"
+            android:exported="false"/>
         <activity
-            android:name=".MainActivity"
-            android:exported="true" >
+            android:name=".WelcomeActivity"
+            android:exported="true">
             <intent-filter>
-                <category android:name="android.intent.category.LAUNCHER" />
-
-                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
             </intent-filter>
         </activity>
         <activity
+            android:name=".MainActivity"
+            android:exported="false"/>
+        <activity
             android:name=".MenuActivity"
-            android:exported="false" >
-        </activity>
+            android:exported="false"/>
+        <activity
+            android:name=".FinalActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".RevolutionActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".LunaActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".IntentActivity"
+            android:exported="false"/>
     </application>
 
 </manifest>
