@@ -24,8 +24,8 @@ class FinalActivity : AppCompatActivity() {
     }
 
     private fun getIntentExtra() {
-        val cadenaRecibida = intent.getStringExtra(ExtraName)
-        binding.tvCadenaRecibida.setText(cadenaRecibida.orEmpty())
+        val stringReceived = intent.getStringExtra(ExtraName)
+        binding.tvStringReceived.setText(stringReceived.orEmpty())
     }
 
     private fun configButton() {
